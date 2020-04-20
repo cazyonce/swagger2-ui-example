@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import site.amass.swagger.example.controller.dto.AddBaseDataDTO;
-import site.amass.swagger.example.controller.vo.BaseVO;
 
 @Api(tags = "文档示例")
 @RestController
