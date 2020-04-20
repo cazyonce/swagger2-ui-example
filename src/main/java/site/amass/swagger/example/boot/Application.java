@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import site.amass.swagger.example.consts.Const;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@ComponentScan({ Const.PACKAGE_SITE_AMASS_SWAGGER_EXAMPLE_CONTROLLER, Const.PACKAGE_SITE_AMASS_SWAGGER_EXAMPLE_CONFIG })
+@ComponentScan({ Const.PACKAGE_SITE_AMASS_SWAGGER_EXAMPLE_CONTROLLER, Const.PACKAGE_SITE_AMASS_SWAGGER_EXAMPLE_CONFIG ,"site.amass.swagger.example.boot"})
 @Configuration
 @SpringBootApplication
 @EnableSwagger2 // 开启api 文档
